@@ -96,28 +96,7 @@ const Header = () => {
         >
           Мое React-приложение
         </Typography>
-
-        {mainMenuItems.map((item, index) => (
-          <Button key={index} component={Link} to={item.link} color="inherit" sx={{ ml: 2 }}>
-            {item.label}
-          </Button>
-        ))}
-
-        {!isLoggedIn && (
-          <Button
-            component={Link}
-            to="/registration"
-            color="inherit"
-            sx={{ ml: 2 }}
-          >
-            Зарегистрироваться
-          </Button>
-        )}
-
-        <IconButton onClick={toggleTheme} color="inherit">
-          {isDarkMode ? <Brightness7Icon /> : <Brightness4Icon />}
-        </IconButton>
-
+        
         {isLoggedIn && <ProfileButton onClick={() => navigate('/profile')} />}
       </Toolbar>
     </AppBar>
