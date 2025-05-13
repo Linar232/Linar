@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "isBlocked": false,
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user",
+      "isBlocked": false,
+      "createdAt": "2023-01-02T00:00:00Z"
+    },
+    {
+      "id": "cbfe",
+      "name": "чапчаач",
+      "email": "anastasiya.mz03@mail.ru",
+      "password": "рооо о ",
+      "role": "user",
+      "isBlocked": false,
+      "avatarColor": "#FFD700",
+      "createdAt": "2025-04-11T12:00:00.562Z"
+    },
+    {
+      "id": "f14f",
+      "name": "фыафвыа",
+      "email": "anastasya.mz03@mail.ru",
+      "password": "рооо о ",
+      "role": "user",
+      "isBlocked": false,
+      "avatarColor": "#FFD700",
+      "createdAt": "2025-04-11T14:13:40.271Z"
+    },
+    {
+      "id": "387f",
+      "name": "фцвфыв",
+      "email": "anastsya.mz03@mail.ru",
+      "password": "рооо о ",
+      "role": "user",
+      "isBlocked": false,
+      "avatarColor": "#FFD700",
+      "createdAt": "2025-04-11T14:40:59.224Z"
+    },
+    {
+      "id": "fd78",
+      "name": "яыаяая",
+      "email": "admi@example.com",
+      "password": "рооо о ",
+      "role": "user",
+      "isBlocked": false,
+      "avatarColor": "#FFD700",
+      "createdAt": "2025-04-11T23:59:58.760Z"
+    },
+    {
+      "id": "0fc8",
+      "name": "пнг",
+      "email": "anstsya.mz073@mail.ru",
+      "password": "рооо о ",
+      "role": "user",
+      "isBlocked": false,
+      "avatarColor": "#FFD700",
+      "createdAt": "2025-04-12T08:21:10.025Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "1",
+      "text": "Отличное приложение!",
+      "date": "2023-05-15T10:30:00Z",
+      "userId": 1
+    },
+    {
+      "id": "c1e3",
+      "text": "ап",
+      "date": "2025-04-11T12:00:20.383Z",
+      "userId": "cbfe",
+      "userName": "чапчаач"
+    },
+    {
+      "id": "0481",
+      "text": "чч",
+      "date": "2025-04-12T00:56:28.943Z",
+      "userId": null,
+      "userName": "фаыфава"
+    },
+    {
+      "id": "22c8",
+      "text": "си",
+      "date": "2025-04-12T07:22:55.404Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "5608",
+      "text": "ячс",
+      "date": "2025-04-12T08:20:17.103Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "5e4e",
+      "text": "вавыв",
+      "date": "2025-04-15T11:46:07.807Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "0573",
+      "text": "уццфв",
+      "date": "2025-04-15T11:46:09.284Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "e2b0",
+      "text": "фаы",
+      "date": "2025-04-15T12:21:24.014Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "8fdc",
+      "text": "яысы",
+      "date": "2025-04-15T13:25:54.788Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "5486",
+      "text": "ити ",
+      "date": "2025-04-15T13:33:08.449Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "88c8",
+      "text": "чсимчс",
+      "date": "2025-04-16T05:53:47.141Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "b43e",
+      "text": "яяяяяяяяяяяяяяяяяяяяяяяяяяя",
+      "date": "2025-04-16T05:54:09.392Z",
+      "userId": 1,
+      "userName": "Admin"
+    },
+    {
+      "id": "e1ca",
+      "text": "выыва",
+      "date": "2025-04-16T06:15:44.968Z",
+      "userId": 1,
+      "userName": "Admin"
+    }
+  ]
+}
