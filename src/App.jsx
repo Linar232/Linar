@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -11,7 +11,6 @@ import CounterPage from './pages/CounterPage';
 import Login from './pages/Login';
 import RegistrationForm from './components/RegistrationForm';
 import Profile from './pages/Profile';
-import AdminPanel from './pages/AdminPanel';
 import NotFound from './components/NotFound';
 import FeedbackPage from './pages/FeedbackPage';
 import { ThemeProvider } from './context/ThemeContext';
@@ -21,11 +20,6 @@ import store from './redux/store';
 const ProtectedRoute = ({ children }) => {
   const { isLoggedIn } = useSelector((state) => state.auth);
   return isLoggedIn ? children : <Navigate to="/" replace />;
-};
-
-const AdminRoute = ({ children }) => {
-  const { isLoggedIn, user } = useSelector((state) => state.auth);
-  return isLoggedIn && user?.role === 'admin' ? children : <Navigate to="/" replace />;
 };
 
 const App = () => {
@@ -49,12 +43,6 @@ const App = () => {
                 <ProtectedRoute>
                   <Profile />
                 </ProtectedRoute>
-              } />
-              
-              <Route path="/admin" element={
-                <AdminRoute>
-                  <AdminPanel />
-                </AdminRoute>
               } />
               
               <Route path="*" element={<NotFound />} />
